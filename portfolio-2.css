@@ -1,0 +1,70 @@
+body{
+    background-color: #FDF5DF;
+    margin: 0;
+    padding: 0;
+}
+.header-section{
+    background-image: url(/bg\ image/top-banner.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+.wlc{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+    margin-top: 0px;
+    padding-top: 40px;
+    color: #F92C85;
+}
+.world{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+    margin-bottom: 0;
+    padding-top: 35px;
+    color: #F92C85;
+}
+.container1{
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+}
+.container1 h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #5EBEC4;
+}
+.container1 p{
+    font-family:'Righteous', cursive;
+    color: #F92C85;
+    font-size: 20px;
+}
+.web-developer-container{
+    width: 50%;
+    text-align: justify;
+    padding: 0 20% 0 15%;
+}
+.image-container{
+    width: 45%;
+    padding-top: 40px;
+}
+.image-container img{
+    width: 80%;
+    padding-right: 20%;
+}
+.container1 a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    background-color: #5EBEC4;
+    color: #FDF5DF;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.container1 a:hover{
+    background-color: #F92C85;
+    color: #5EBEC4;
+}
