@@ -43,16 +43,18 @@ body{
 }
 .web-developer-container{
     width: 50%;
+    height: 400px;
     text-align: justify;
-    padding: 0 20% 0 15%;
+    margin: 25px 10% 0 10%;
+    padding: 0 20px;
+    box-shadow: -10px 0 #F92C85, 0 5px 15px #5EBEC4, 5px 0px 15px #5EBEC4, 0 -5px 15px #5EBEC4;
+    border-radius: 10px;
 }
-.image-container{
-    width: 45%;
-    padding-top: 40px;
+.image-container1{
+    width: 40%;
 }
-.image-container img{
+.image-container1 img{
     width: 80%;
-    padding-right: 20%;
 }
 .container1 a{
     display: inline-block;
@@ -67,4 +69,39 @@ body{
 .container1 a:hover{
     background-color: #F92C85;
     color: #5EBEC4;
+}
+.container2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+.image-container2{
+    width: 40%;
+}
+.image-container2 img{
+    width: 80%;
+    margin-left: 15%;
+}
+.programming-hero-container{
+    width: 50%;
+    height: 400px;
+    text-align: justify;
+    margin: 25px 10% 0 10%;
+    padding: 0 20px;
+    box-shadow: -10px 0 15px #5EBEC4, 0 5px 15px #5EBEC4, 10px 0 #F92C85, 0 -5px 15px #5EBEC4;
+    border-radius: 10px;
+}
+.programming-hero-container h3{
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: #5EBEC4;
+}
+.programming-hero-container p{
+    font-family:'Righteous', cursive;
+    color: #F92C85;
+    font-size: 20px;
+}
+#jhankar-mahbub{
+    color: #F92C85;
 }
